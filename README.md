@@ -22,11 +22,10 @@
 
 ### Emphasis(강조)
 * ```[* | _]글[* | _]``` : 기울기
-* ```_
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
+* ```[** | __][** | __]```
+*i tag*
+_i tag_
+**b tag**
+__b tag__
 
 _You **can** combine them_
