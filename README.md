@@ -33,16 +33,29 @@ _You **can** combine them_
 
 ### Lists(목록)
 #### Unordered(미순차, 점)
-
+* 사용법 : 숫자. 문자
+* 띄어쓰기 3번을 주면 새로운 ol, li tag가 해당 li tag의 하위 태그로 종속된다.
+* 하위 태그로의 적용 단계는 3단계가 끝이다.
+* 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
+```
+1. ol, li tag - 일반숫자
+   1. ol, li tag - 로마숫자
+      1. ol, li tag - 알파벳
+```
+1. ol, li tag - 일반숫자
+   1. ol, li tag - 로마숫자
+      1. ol, li tag - 알파벳
+   
 #### Ordered(순차, 숫자)
 * 사용법 : 숫자. 문자
-* 띄어쓰기 3번을 주면 해당 li tag의 하위 ol, li tag로 종속된다.
+* 띄어쓰기 3번을 주면 새로운 ol, li tag가 해당 li tag의 하위 태그로 종속된다.
+* 하위 태그로의 적용 단계는 3단계가 끝이다.
+* 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
-1. ol, li tag
-   1. ol, li tag
-      1. ol, li tag
+1. ol, li tag - 일반숫자
+   1. ol, li tag - 로마숫자
+      1. ol, li tag - 알파벳
 ```
-1. ol, li tag
-   1. ol, li tag
-      1. ol, li tag
-         1. ol, li tag
+1. ol, li tag - 일반숫자
+   1. ol, li tag - 로마숫자
+      1. ol, li tag - 알파벳
