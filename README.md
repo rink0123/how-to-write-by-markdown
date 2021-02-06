@@ -40,18 +40,19 @@ _You **can** combine them_
 ### Lists(목록)
 * 띄어쓰기 3번을 주면 새로운 [ ol | ul ], li tag가 해당 li tag의 하위 태그로 종속된다.
 * 하위 태그로의 적용 단계는 3단계가 끝이다.
+* 혼합해서 사용하는 것도 가능하다.
 
 #### Unordered(미순차, 점)
-* 사용법 : [ * | + | - ]. 문자
+* 사용법 : [ * | + | - ] 문자
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
-*. ul, li tag
-   +. ul, li tag
-      -. ul, li tag
+* ul, li tag
+   + ul, li tag
+      - ul, li tag
 ```
-*. ul, li tag
-   +. ul, li tag
-      -. ul, li tag
+* ul, li tag
+   + ul, li tag
+      - ul, li tag
    
 #### Ordered(순차, 숫자)
 * 사용법 : 숫자. 문자
