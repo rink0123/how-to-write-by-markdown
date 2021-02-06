@@ -2,9 +2,9 @@
    
 # Header(제목)
 -----------------
-# This is an <h1> tag
-## This is an <h2> tag
-### This is an <h1> tag
-#### This is an <h1> tag
-##### This is an <h1> tag
-###### This is an <h6> tag
+# h1 tag - 문서 제목
+## h2 tag - 문서 부제목
+### h3 tag
+#### h4 tag
+##### h5 tag
+###### h6 tag
