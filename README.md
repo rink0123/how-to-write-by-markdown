@@ -21,6 +21,8 @@
 ***
 
 ### Emphasis(강조)
+* ```[* | _]글[* | _]``` : 기울기
+* ```_
 *This text will be italic*
 _This will also be italic_
 
