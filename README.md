@@ -39,21 +39,10 @@ _You **can** combine them_
 * 띄어쓰기 3번을 주면 해당 li tag의 하위 ol, li tag로 종속된다.
 ```
 1. ol, li tag
-2. ol, li tag
-3. ol, li tag
    1. ol, li tag
-   2. ol, li tag
-   3. ol, li tag
       1. ol, li tag
-      2. ol, li tag
-      3. ol, li tag
 ```
 1. ol, li tag
-2. ol, li tag
-3. ol, li tag
    1. ol, li tag
-   2. ol, li tag
-   3. ol, li tag
       1. ol, li tag
-      2. ol, li tag
-      3. ol, li tag
+         1. ol, li tag
