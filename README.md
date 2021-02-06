@@ -42,5 +42,10 @@ _You **can** combine them_
 2. Item 2
 3. Item 3
    1. Item 3a
-   3. Item 3b
+   2. Item 3b
 ```
+1. <ol><li></li></ol>
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
