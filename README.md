@@ -3,20 +3,19 @@
 * #의 갯수에 따라 h1~h6까지 지원.
 * 사용법 : #(띄어쓰기)글
 ```
-# This is an H1
-## This is an H2
-### This is an H3
-#### This is an H4
-##### This is an H5
-###### This is an H6
+# <h1> tag
+## <h1> tag
+### <h1> tag
+#### <h1> tag
+##### <h1> tag
+###### <h1> tag
 ```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
-####### This is a H7(지원하지 않음)
+# <h1> tag
+## <h1> tag
+### <h1> tag
+#### <h1> tag
+##### <h1> tag
+###### <h1> tag
 
 ***
 
