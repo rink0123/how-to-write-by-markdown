@@ -1,31 +1,14 @@
 # README 작성을 위한 Markdown 활용법
-****
-# 2. 마크다운 사용법(문법)
-## 2.1. 헤더Headers
-* 큰제목: 문서 제목
-    ```
-    This is an H1
-    =============
-    ```
-    This is an H1
-    =============
-
-* 작은제목: 문서 부제목
-    ```
-    This is an H2
-    -------------
-    ```
-    This is an H2
-    -------------
-
-* 글머리: 1~6까지만 지원
+### Header(제목)
+* #의 갯수에 따라 h1~h6까지 지원.
+* 사용법 : #(띄어쓰기)글
 ```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
+# This is an H1
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+###### This is an H6
 ```
 # This is a H1
 ## This is a H2
@@ -34,6 +17,8 @@
 ##### This is a H5
 ###### This is a H6
 ####### This is a H7(지원하지 않음)
+
+***
 
 ## 2.2. BlockQuote
 이메일에서 사용하는 ```>``` 블럭인용문자를 이용한다.
