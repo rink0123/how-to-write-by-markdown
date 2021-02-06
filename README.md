@@ -32,10 +32,15 @@ _You **can** combine them_
 ***
 
 ### Lists(목록)
-#### Unordered(순서없는 목록)
-#### Ordered(순서있는 목록)
-1. Item 1
-1. Item 2
-1. Item 3
+#### Unordered(미순차, 점)
+
+   
+#### Ordered(순차, 숫자)
+* 띄어쓰기 3번을 주면 
+```
+1. <ol><li></li></ol>
+2. Item 2
+3. Item 3
    1. Item 3a
-   1. Item 3b
+   3. Item 3b
+```
