@@ -108,8 +108,13 @@ http://github.com
 
 ### Inline code(`<code>`)
 * format : '문자'
-   
-'''
+* 역 따옴표이니 작은 따옴표랑 헤깔리면 안 된다.
+```
 I think you should use an `<addr>` element here instead.
-'''
+```
 I think you should use an `<addr>` element here instead.
+
+***
+
+### Syntax highlighting(`<pre>`)
+* format : ```문자```
