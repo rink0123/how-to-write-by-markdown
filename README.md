@@ -31,7 +31,7 @@ __b tag__
 _i tag_   
 **b tag**   
 __b tag__   
-_You **can** combine them_
+_문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다._
 
 ***
 
@@ -70,10 +70,10 @@ _You **can** combine them_
 * Format: ```![Alt Text](url "Alt title")```
 * Markdown 언어에서는 이미지 크기 조정이 안되니 Markup 언어를 사용해야 한다.
 ```
-![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f)
-![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f "라이언")
-<img src="https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f" width="480px"/>
+![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
+![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "이주빈 증명사진")
+<img alt="이주빈 증명사진" src="https://img.hankyung.com/photo/201904/01.19372617.1.jpg" width="480px"/>
 ```
-![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f)
-![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f "라이언")
-<img alt="라이언" src="https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f" width="480px"/>
+![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
+![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "이주빈 증명사진")
+<img alt="이주빈 증명사진" src="https://img.hankyung.com/photo/201904/01.19372617.1.jpg" width="480px"/>
