@@ -46,22 +46,22 @@ _You **can** combine them_
 * 사용법 : [ * | + | - ] 문자
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
-* ul, li tag
-   + ul, li tag
-      - ul, li tag
+* <ul type="disc"> - 검정 원형 점
+   + <ul type="circle"> - 흰 원형 점
+      - <ul type="square"> - 검정 사각형 점
 ```
-* ul, li tag
-   + ul, li tag
-      - ul, li tag
+* ```<ul type="disc">``` - 검정 원형 점
+   + ```<ul type="circle">``` - 흰 원형 점
+      - ```<ul type="square">``` - 검정 사각형 점
    
 #### Ordered(순차, 숫자)
 * 사용법 : 숫자. 문자
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
-1. <ol type='1'> - 숫자(기본값)
-   1. <ol type='i'> - 소문자 로마 숫자
-      1. <ol type='a'> - 소문자 알파벳
+1. <ol type="1"> - 숫자(기본값)
+   1. <ol type="i"> - 소문자 로마 숫자
+      1. <ol type="a"> - 소문자 알파벳
 ```
-1. ```<ol type='1'>``` - 숫자(기본값)
-   1. ```<ol type='i'>``` - 소문자 로마 숫자
-      1. ```<ol type='a'>``` - 소문자 알파벳
+1. ```<ol type="1">``` - 숫자(기본값)
+   1. ```<ol type="i">``` - 소문자 로마 숫자
+      1. ```<ol type="a">``` - 소문자 알파벳
