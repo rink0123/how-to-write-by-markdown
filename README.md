@@ -1,17 +1,17 @@
 # README 작성을 위한 Markdown 활용법
-### Header(제목)
+### Header(<h1> ~ <h6>)
 * 사용법 : ```# 문자```
 * #의 갯수에 따라 h1~h6까지 지원.
 ```
-# h1 tag
-## h2 tag
+# h1 tag - 문서 제목
+## h2 tag - 문서 부제목
 ### h3 tag
 #### h4 tag
 ##### h5 tag
 ###### h6 tag
 ```
-# h1 tag
-## h2 tag
+# h1 tag - 문서 제목
+## h2 tag - 문서 부제목
 ### h3 tag
 #### h4 tag
 ##### h5 tag
@@ -65,3 +65,8 @@ _You **can** combine them_
 1. ```<ol type="1">``` - 숫자(기본값)
    1. ```<ol type="i">``` - 소문자 로마 숫자
       1. ```<ol type="a">``` - 소문자 알파벳
+
+***
+
+### Images(이미지)
+
