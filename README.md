@@ -93,7 +93,20 @@ http://github.com
 ***
 
 ### Blockquotes(```<blockquote>```)
-As Kanye West said:
+* format : ```> 문자```
+* 다른 Markdown 요소를 포함할 수 있다.
+```
+> This is a first blockqute.
+>	> This is a second blockqute.
+>	>	> This is a third blockqute.
+```
+> This is a first blockqute.
+>	> This is a second blockqute.
+>	>	> This is a third blockqute.
 
-> We're living the future so
-> the present is our past.
+***
+
+### Inline code(<code>)
+* format : '문자'
+I think you should use an
+`<addr>` element here instead.
