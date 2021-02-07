@@ -70,6 +70,7 @@ _You **can** combine them_
 * Format: ```![Alt Text](url)```
 ```
 ![이미지](https://www.dogdrip.net/dvs/c/19/12/04/c14f76632fcca33e89294afaa715f9f5.jpg)
+![이미지](https://www.dogdrip.net/dvs/c/19/12/04/c14f76632fcca33e89294afaa715f9f5.jpg "Optional title")
 ```
 ![이미지](https://www.dogdrip.net/dvs/c/19/12/04/c14f76632fcca33e89294afaa715f9f5.jpg)
 <img src="https://www.dogdrip.net/dvs/c/19/12/04/c14f76632fcca33e89294afaa715f9f5.jpg" width="480px"/>
