@@ -1,6 +1,6 @@
 # README 작성을 위한 Markdown 활용법
-### Header(```<h1> ~ <h6>```)
-* format : ```# 문자```
+### Header(`<h1> ~ <h6>`)
+* format : `# 문자`
 ```
 # h1 tag - 문서 제목
 ## h2 tag - 문서 부제목
@@ -18,8 +18,8 @@
 
 ***
 
-### Emphasis(```<i>, <b>```)
-* format : 글자 기울기=```[ * | _ ]문자[ * | _ ]```, 글자 굵기=```[ ** | __ ]문자[ ** | __ ]```
+### Emphasis(`<i>`, `<b>`)
+* format : 글자 기울기=`[ * | _ ]문자[ * | _ ]`, 글자 굵기=`[ ** | __ ]문자[ ** | __ ]`
 * 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다.   
 ```
 *i tag*
@@ -40,7 +40,7 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 * 하위 태그로의 적용 단계는 3단계가 끝이다.
 * Markup 언어와 똑같이 혼합해서 사용하는 것도 가능하다.
 
-#### Unordered(```<ul>```)
+#### Unordered(`<ul>`)
 * format : [ * | + | - ] 문자
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
@@ -48,11 +48,11 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
    + <ul type="circle"> - 흰 원형 점
       - <ul type="square"> - 검정 사각형 점
 ```
-* ```<ul type="disc">``` - 검정 원형 점
-   + ```<ul type="circle">``` - 흰 원형 점
-      - ```<ul type="square">``` - 검정 사각형 점
+* `<ul type="disc">` - 검정 원형 점
+   + `<ul type="circle">` - 흰 원형 점
+      - `<ul type="square">` - 검정 사각형 점
    
-#### Ordered(```<ol>```)
+#### Ordered(`<ol>`)
 * format : 숫자. 문자
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
@@ -60,15 +60,15 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
    1. <ol type="i"> - 소문자 로마 숫자
       1. <ol type="a"> - 소문자 알파벳
 ```
-1. ```<ol type="1">``` - 숫자(기본값)
-   1. ```<ol type="i">``` - 소문자 로마 숫자
-      1. ```<ol type="a">``` - 소문자 알파벳
+1. `<ol type="1">` - 숫자(기본값)
+   1. `<ol type="i">` - 소문자 로마 숫자
+      1. `<ol type="a">` - 소문자 알파벳
 
 ***
 
-### Images(```<img>```)
-* format : ```![Alt Text](url "Alt title")```
-* ```![Alt Text](url "Alt title")``` 에서 "Alt title"을 제외한 나머지는 필수이다.
+### Images(`<img>`)
+* format : `![Alt Text](url "Alt title")`
+* `![Alt Text](url "Alt title")` 에서 "Alt title"을 제외한 나머지는 필수이다.
 * Markdown 언어에서는 이미지 크기 조정이 안되니 Markup 언어를 사용해야 한다.
 ```
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
@@ -81,8 +81,8 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 
 ***
 
-### Links(```<a>```)
-* format : ```url - automatic!```, ```[Alt](http://github.com)```
+### Links(`<a>`)
+* format : `url - automatic!`, `[Alt](http://github.com)`
 ```
 url
 [a tag text](url)
@@ -92,8 +92,8 @@ http://github.com
 
 ***
 
-### Blockquotes(```<blockquote>```)
-* format : ```> 문자```
+### Blockquotes(`<blockquote>`)
+* format : `> 문자`
 * 다른 Markdown 요소를 포함할 수 있다.
 ```
 > This is a first blockqute.
@@ -108,5 +108,7 @@ http://github.com
 
 ### Inline code(<code>)
 * format : '문자'
+'''
 I think you should use an
 `<addr>` element here instead.
+'''
