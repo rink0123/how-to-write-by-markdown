@@ -38,7 +38,7 @@ _You **can** combine them_
 ### Lists
 * 띄어쓰기 3번을 주면 새로운 [ ol | ul ], li tag가 해당 li tag의 하위 태그로 종속된다.
 * 하위 태그로의 적용 단계는 3단계가 끝이다.
-* MarkUp 언어와 똑같이 혼합해서 사용하는 것도 가능하다.
+* Markup 언어와 똑같이 혼합해서 사용하는 것도 가능하다.
 
 #### Unordered(```<ul>```)
 * 사용법 : [ * | + | - ] 문자
@@ -67,11 +67,13 @@ _You **can** combine them_
 ***
 
 ### Images(이미지)
-* Format: ```![Alt Text](url)```
+* Format: ```![Alt Text](url "Alt title")```
+* Markdown 언어에서는 이미지 크기 조정이 안되니 Markup 언어를 사용해야 한다.
 ```
-![이미지](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
-![이미지](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "Optional title")
+![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f)
+![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f "라이언")
+<img src="https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f" width="480px"/>
 ```
-![이미지](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
-![이미지](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "Optional title")
-<img src="https://www.dogdrip.net/dvs/c/19/12/04/c14f76632fcca33e89294afaa715f9f5.jpg" width="480px"/>
+![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f)
+![라이언](https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f "라이언")
+<img alt="라이언" src="https://file.namu.moe/file/efae5859a4200e1c5eafd1003eb6b949758566ddf7e32df9db56b0c70c828157c01129fd3869c936a91b53046759aed89a837fed4c7e8829de7823438a798f1f" width="480px"/>
