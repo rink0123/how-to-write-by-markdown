@@ -119,14 +119,14 @@ I think you should use an `<addr>` element here instead.
 ### Syntax highlighting(`<pre>`)
 * format : ` ```문자``` `, (띄어쓰기 4개)문자(띄어쓰기 4개)
 ```
-```
+<pre><code>
 javascript
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```
+</code></pre>
 ```
 
 ```
