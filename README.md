@@ -41,7 +41,7 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 * Markup 언어와 똑같이 혼합해서 사용하는 것도 가능하다.
 
 #### Unordered(```<ul>```)
-* 사용법 : [ * | + | - ] 문자
+* format : [ * | + | - ] 문자
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
 * <ul type="disc"> - 검정 원형 점
@@ -53,7 +53,7 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
       - ```<ul type="square">``` - 검정 사각형 점
    
 #### Ordered(```<ol>```)
-* 사용법 : 숫자. 문자
+* format : 숫자. 문자
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
 1. <ol type="1"> - 숫자(기본값)
@@ -67,7 +67,7 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 ***
 
 ### Images(```<img>```)
-* ormat: ```![Alt Text](url "Alt title")```
+* format : ```![Alt Text](url "Alt title")```
 * Markdown 언어에서는 이미지 크기 조정이 안되니 Markup 언어를 사용해야 한다.
 ```
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
@@ -76,8 +76,9 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 ```
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "이주빈 증명사진")
-<img src="https://img.hankyung.com/photo/201904/01.19372617.1.jpg" width="480px" alt="이주빈 증명사진" title="이주빈 증명사진"/>
+<img src="https://img.hankyung.com/photo/201904/01.19372617.1.jpg" width="240px" alt="이주빈 증명사진" title="이주빈 증명사진"/>
 
 ***
 
-
+### Links
+* format : 
