@@ -117,4 +117,4 @@ I think you should use an `<addr>` element here instead.
 ***
 
 ### Syntax highlighting(`<pre>`)
-* format : ```문자```
+* format : ````문자````
