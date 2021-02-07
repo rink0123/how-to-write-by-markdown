@@ -80,5 +80,6 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 
 ***
 
-### Links
-* format : 
+### Links(```<a>```)
+* format : ```http://github.com - automatic!```
+           ```[GitHub](http://github.com)```
