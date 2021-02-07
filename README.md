@@ -84,8 +84,16 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 ### Links(```<a>```)
 * format : ```url - automatic!```, ```[Alt](http://github.com)```
 ```
-http://github.com - automatic!
-[GitHub](http://github.com)
+url
+[a tag text](url)
 ```
-http://github.com - automatic!
+http://github.com   
 [GitHub](http://github.com)
+
+***
+
+### Blockquotes(```<blockquote>```)
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
