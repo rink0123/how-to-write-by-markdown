@@ -68,18 +68,24 @@ _문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것�
 
 ### Images(```<img>```)
 * format : ```![Alt Text](url "Alt title")```
+* ```![Alt Text](url "Alt title")``` 에서 "Alt title"을 제외한 나머지는 필수이다.
 * Markdown 언어에서는 이미지 크기 조정이 안되니 Markup 언어를 사용해야 한다.
 ```
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "이주빈 증명사진")
 <img src="https://img.hankyung.com/photo/201904/01.19372617.1.jpg" width="480px" alt="이주빈 증명사진" title="이주빈 증명사진"/>
 ```
-!(https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
+![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "이주빈 증명사진")
 <img src="https://img.hankyung.com/photo/201904/01.19372617.1.jpg" width="240px" alt="이주빈 증명사진" title="이주빈 증명사진"/>
 
 ***
 
 ### Links(```<a>```)
-* format : ```http://github.com - automatic!```
-           ```[GitHub](http://github.com)```
+* format : ```url - automatic!```, ```[Alt](http://github.com)```
+```
+http://github.com - automatic!
+[GitHub](http://github.com)
+```
+http://github.com - automatic!
+[GitHub](http://github.com)
