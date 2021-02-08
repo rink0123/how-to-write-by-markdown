@@ -19,10 +19,14 @@
 
 ***
 
-### Styling text('<b>', '<i>', '<del>)
-Style | Syntax | Example | Output
-|---|---|---|---
-Bold | `** **` or `__ __` | `**bold**` | **bold**
+### Styling text('<b>', '<i>', '<del>`)
+| Style | Syntax | Example | Output |
+|---|---|---|---|
+| Bold | `** **` or `__ __` | `**bold**` | **bold** |
+| Italic | `* *` or `_ _` | `*Italic*` | *Italic* |
+| Strikethrough | `~~ ~~` | `~~Strikethrough~~` | ~~Strikethrough~~ |
+| Bold and nested italic | `** **` and `_ _` | `**This text is _extremely_ important**` | **This text is _extremely_ important** |
+| All bold and italic | `*** ***` | `***All bold and italic***` | ***All bold and italic***
 
 ### Emphasis(`<i>`, `<b>`)
 * format : 글자 기울기=`[ * | _ ]문자[ * | _ ]`, 글자 굵기=`[ ** | __ ]문자[ ** | __ ]`
