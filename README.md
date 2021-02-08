@@ -151,11 +151,11 @@ ___ // 띄어쓰기
 ### code(`<code>`, `<pre>`)
 * format : \`Text\` or \`\`\`Text\`\`\`
 * 역 따옴표이니 작은 따옴표랑 헤깔리면 안 된다.
-<code>
+<pre><code>
 ```
 I think you should use an `<addr>` element here instead.
 ```
-</code>
+</code></pre>
 I think you should use an `<addr>` element here instead.
 
 ***
