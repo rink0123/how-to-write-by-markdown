@@ -3,6 +3,17 @@
 개인적으로 쓸만한 것만 추려서 정리하였습니다.
 ```
 ### Header(`<h1> ~ <h6>`)
+| Style | Syntax | Tag | Example | Output |
+|---|---|---|---|---|
+| Header | `# Text` | `<h1> ~ <h6>` | ```
+| | | | # h1 tag - 문서 제목
+| | | | ## h2 tag - 문서 부제목
+| | | | ### h3 tag
+| | | | #### h4 tag
+| | | | ##### h5 tag
+| | | | ###### h6 tag
+| | | | ```
+
 * format : `# 문자`
 * 제목을 만들려면 #제목 텍스트 앞에 1 ~ 6 개의 기호를 추가합니다. 사용하는 수에 #따라 제목의 크기가 결정됩니다.
 ```
@@ -23,13 +34,13 @@
 ***
 
 ### Styling text(`<b>`, `<i>`, `<del>`)
-| Style | Syntax | Example | Output |
-|---|---|---|---|
-| Bold | `** **` or `__ __` | `**bold**` | **bold** |
-| Italic | `* *` or `_ _` | `*Italic*` | *Italic* |
-| Strikethrough | `~~ ~~` | `~~Strikethrough~~` | ~~Strikethrough~~ |
-| Bold and nested italic | `** **` and `_ _` | `**This text is _extremely_ important**` | **This text is _extremely_ important** |
-| All bold and italic | `*** ***` | `***All bold and italic***` | ***All bold and italic*** |
+| Style | Syntax | Tag | Example | Output |
+|---|---|---|---|---|
+| Bold | `**Text**` or `__Text__` | `<b>Bold</b>` | `**Bold**` | **bold** |
+| Italic | `*Text*` or `_Text_` | `<i>Italic</i>` | `*Italic*` | *Italic* |
+| Strikethrough | `~~Text~~` | `<del>Strikethrough</del>` | `~~Strikethrough~~` | ~~Strikethrough~~ |
+| Bold and nested italic | `**Text**` and `_Text_` | `<b>This text is<i> extremely </i>important</b>` | `**This text is _extremely_ important**` | **This text is _extremely_ important** |
+| All bold and italic | `***Text***` | `<b><i>All bold and italic</i></b>` | `***All bold and italic***` | ***All bold and italic*** |
 
 ***
 
@@ -137,4 +148,9 @@ function fancyAlert(arg) {
 
 ***
 
-
+### Ignoring Markdown formatting(Escape)
+* format : `\Markdown language`
+```
+Let's rename \*our-new-project\* to \*our-old-project\*.
+```
+Let's rename \*our-new-project\* to \*our-old-project\*.
