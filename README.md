@@ -26,22 +26,7 @@
 | Italic | `* *` or `_ _` | `*Italic*` | *Italic* |
 | Strikethrough | `~~ ~~` | `~~Strikethrough~~` | ~~Strikethrough~~ |
 | Bold and nested italic | `** **` and `_ _` | `**This text is _extremely_ important**` | **This text is _extremely_ important** |
-| All bold and italic | `*** ***` | `***All bold and italic***` | ***All bold and italic***
-
-### Emphasis(`<i>`, `<b>`)
-* format : 글자 기울기=`[ * | _ ]문자[ * | _ ]`, 글자 굵기=`[ ** | __ ]문자[ ** | __ ]`
-* 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다.   
-```
-*i tag*
-_i tag_
-**b tag**
-__b tag__
-```
-*i tag*   
-_i tag_   
-**b tag**   
-__b tag__   
-_문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다._
+| All bold and italic | `*** ***` | `***All bold and italic***` | ***All bold and italic*** |
 
 ***
 
