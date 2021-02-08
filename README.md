@@ -74,7 +74,7 @@ ___ // 띄어쓰기
 ***
 
 ### Links(`<a>`)
-* Autumatic Link, Outer Link는 URL 연결에 쓰이고 Inner Link는 주로 목차로 쓰인다.
+* Autumatic Link, Outer Link는 URL 연결에 쓰이고 Inner Link는 주로 목차로 쓰인다.   
 | Style | Syntax | Tag | Example | Output |
 |---|---|---|---|---|
 | Autumatic Link | `url` | `<a href="[url]" target="_self">url</a>` | `http://github.com` | http://github.com |
