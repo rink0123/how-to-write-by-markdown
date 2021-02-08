@@ -1,4 +1,7 @@
 # README 작성을 위한 Markdown 활용법
+```
+개인적으로 쓸만한 것만 추려서 정리하였습니다.
+```
 ### Header(`<h1> ~ <h6>`)
 * format : `# 문자`
 * 제목을 만들려면 #제목 텍스트 앞에 1 ~ 6 개의 기호를 추가합니다. 사용하는 수에 #따라 제목의 크기가 결정됩니다.
@@ -134,14 +137,4 @@ function fancyAlert(arg) {
 
 ***
 
-### Task Lists(작업 목록)
-```
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-```
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+
