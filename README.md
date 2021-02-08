@@ -144,3 +144,31 @@ function fancyAlert(arg) {
 Let's rename \*our-new-project\* to \*our-old-project\*.
 ```
 Let's rename \*our-new-project\* to \*our-old-project\*.
+
+***
+
+### Tables(`<table>`)
+* format : `|` and `-`, 왼쪽 정렬=`:---`, 가운데 정렬=`:---:`, 오른쪽 정렬=`---:`
+* 단어 목록을 조합하고 하이픈 `-`(첫 번째 행)으로 나눈 다음 각 열을 `|`(파이프)로 구분하여 표를 만들 수 있다.
+* `-`을 3개 이상 넣어야 행으로 인식한다.
+```
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+```
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+   
+```
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+```
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
