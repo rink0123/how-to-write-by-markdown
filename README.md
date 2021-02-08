@@ -3,8 +3,8 @@
 개인적으로 쓸만한 것만 추려서 정리하였습니다.
 ```
 ### Header(`<h1> ~ <h6>`)
-* format : `# 문자`
-* 제목을 만들려면 #제목 텍스트 앞에 1 ~ 6 개의 기호를 추가합니다. 사용하는 수에 #따라 제목의 크기가 결정됩니다.
+* format : `# Text`
+* 제목을 만들려면 #제목 텍스트 앞에 1 ~ 6 개의 기호를 추가합니다. 사용하는 수에 #따라 제목의 크기가 결정된다.
 ```
 # h1 tag - 문서 제목
 ## h2 tag - 문서 부제목
@@ -34,12 +34,12 @@
 ***
 
 ### Lists
-* 띄어쓰기 3번을 주면 새로운 [ ol | ul ], li tag가 해당 li tag의 하위 태그로 종속된다.
+* 띄어쓰기 3번을 주면 새로운 `<ol>` or `<ul>`가 해당 `<li>`의 하위 태그로 종속된다.
 * 하위 태그로의 적용 단계는 3단계가 끝이다.
 * Markup 언어와 똑같이 혼합해서 사용하는 것도 가능하다.
 
 #### Unordered(`<ul>`)
-* format : [ * | + | - ] 문자
+* format : `*` or `+` or `-` Text
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
 * <ul type="disc"> - 검정 원형 점
@@ -80,10 +80,10 @@
 ***
 
 ### Links(`<a>`)
-* format : `url - automatic!`, `[Alt](http://github.com)`
+* format : `url` or `[Alt](http://github.com)`
 ```
 url
-[a tag text](url)
+[Text](url)
 ```
 http://github.com   
 [GitHub](http://github.com)
@@ -91,7 +91,7 @@ http://github.com
 ***
 
 ### Blockquotes(`<blockquote>`)
-* format : `> 문자`
+* format : `>` Text
 * 다른 Markdown 요소를 포함할 수 있다.
 ```
 > This is a first blockqute.
@@ -104,8 +104,8 @@ http://github.com
 
 ***
 
-### Inline code(`<code>`)
-* format : '문자'
+### code(`<code>`, `<pre>`)
+* format : \`Text\` or \`\`\`Text\`\`\`
 * 역 따옴표이니 작은 따옴표랑 헤깔리면 안 된다.
 ```
 I think you should use an `<addr>` element here instead.
