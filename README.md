@@ -75,10 +75,10 @@ ___ // 띄어쓰기
 
 ### Links
 * Autumatic Link, External Link는 흔히 보는 링크 연결이다.
-* Internal Link는 주로 목차로 쓰이며 Header로 링크되기에 `()` 안에 Header를 넣으면 된다.
-* Internal Link 사용 시 `()` 안에 띄어쓰기는 `-`로 대체해야 한다. 안 그럼 일반 글자로 인식한다.
+* Internal Link는 주로 목차로 쓰인다.
+* `()` : Header로 링크, 띄어쓰기 => `-`로 대체, 대소문자 구문X. 규칙 어길 시 일반 글자로 인식.
+* Header에 특수 문자가 있을 경우, 특수 문자를 제외한 Text를 넣으면 된다. (ex. Images(`<img>`) => imagesimg)
 * Interpreter로 실행되기에 Internal Link를 목차로 사용하려면 최상단에 두어야 한다. Internal Link가 선언된 위 Header를 인식하지 못한다.
-* Header에 특수 문자가 있을 경우, 특수 문자를 제외한 Text를 넣으면 된다. (ex. Images(`<img>`) => Imagesimg)
    
 | Style | Syntax | Tag | Example | Output |
 |---|---|---|---|---|
@@ -152,9 +152,9 @@ ___ // 띄어쓰기
 * format : \`Text\` or \`\`\`Text\`\`\`
 * 역 따옴표이니 작은 따옴표랑 헤깔리면 안 된다.
 ```
-\`\`\`
+\```
 I think you should use an `<addr>` element here instead.
-\`\`\`
+\```
 ```
 I think you should use an `<addr>` element here instead.
 
