@@ -78,7 +78,7 @@ ___ // 띄어쓰기
 |---|---|---|---|---|
 | Autumatic Link | `url` | `<a href="[url]" target="_self">url</a>` | `http://github.com` | http://github.com |
 | Outer Link | `url` or `[Text](url)` | `<a href="[url]" target="_self">Text</a>` | `[GitHub](http://github.com)` | [GitHub](http://github.com) |
-| Inner Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Header](#Header)` | [Lists](#Lists) |
+| Inner Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Header](#Header)` | [Styling text](#Styling-text) |
 
 ***
 
@@ -142,7 +142,7 @@ ___ // 띄어쓰기
 
 ***
 
-### code(`<code>`, `<pre>`)
+### Inline code(`<code>`, `<pre>`)
 * format : \`Text\` or \`\`\`Text\`\`\`
 * 역 따옴표이니 작은 따옴표랑 헤깔리면 안 된다.
 ```
@@ -151,30 +151,6 @@ I think you should use an `<addr>` element here instead.
 \`\`\`
 ```
 I think you should use an `<addr>` element here instead.
-
-***
-
-### Syntax highlighting(`<pre>`)
-* format : ` ``Text``` `, (띄어쓰기 4개)Text(띄어쓰기 4개)
-<pre><code> 
-```
-javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-</code></pre>
-
-```
-javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
 
 ***
 
