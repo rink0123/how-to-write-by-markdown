@@ -1,3 +1,8 @@
+참고 URL   
+[GitHub Guide - Mastering Markdown](https://guides.github.com/features/mastering-markdown/)   
+[GitHub Docs - Writing on GitHub](https://docs.github.com/en/github/writing-on-github)   
+[GitHub - 마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601#1-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC)   
+   
 # README 작성을 위한 Markdown 활용법
 ```
 개인적으로 쓸만한 것만 추려서 정리하였습니다.
@@ -86,7 +91,7 @@ ___ // 띄어쓰기
       - `<ul type="square">` - 검정 사각형 점
    
 #### Ordered(`<ol>`)
-* format : 숫자. 문자
+* format : 숫자. Text
 * 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
 ```
 1. <ol type="1"> - 숫자(기본값)
@@ -115,7 +120,7 @@ ___ // 띄어쓰기
 ***
 
 ### Links(`<a>`)
-* format : `url` or `[Alt](http://github.com)`
+* format : `url` or `[Text](url)`
 ```
 url
 [Text](url)
@@ -152,7 +157,7 @@ I think you should use an `<addr>` element here instead.
 ***
 
 ### Syntax highlighting(`<pre>`)
-* format : ` ```문자``` `, (띄어쓰기 4개)문자(띄어쓰기 4개)
+* format : ` ``Text``` `, (띄어쓰기 4개)Text(띄어쓰기 4개)
 <pre><code> 
 ```
 javascript
