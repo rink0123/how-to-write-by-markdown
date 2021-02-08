@@ -19,7 +19,7 @@
 
 ***
 
-### Styling text('<b>', '<i>', '<del>`)
+### Styling text(`<b>`, `<i>`, `<del>`)
 | Style | Syntax | Example | Output |
 |---|---|---|---|
 | Bold | `** **` or `__ __` | `**bold**` | **bold** |
