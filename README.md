@@ -19,7 +19,9 @@
 
 ***
 
-### Styling text
+### Styling text('<b>', '<i>', '<del>)
+Style | Syntax | Example | Output
+Bold | `** **` or `__ __` | `**bold**` | **bold**
 
 ### Emphasis(`<i>`, `<b>`)
 * format : 글자 기울기=`[ * | _ ]문자[ * | _ ]`, 글자 굵기=`[ ** | __ ]문자[ ** | __ ]`
