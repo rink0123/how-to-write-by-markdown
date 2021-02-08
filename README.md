@@ -7,7 +7,7 @@
 ```
 개인적으로 쓸만한 것만 추려서 정리하였습니다.
 ```
-### Header(제목, `<h1> ~ <h6>`)
+### Header(`<h1> ~ <h6>`)
 * format : `# Text`
 * 제목을 만들려면 #제목 텍스트 앞에 1 ~ 6 개의 기호를 추가합니다. 사용하는 수에 #따라 제목의 크기가 결정된다.
 ```
@@ -27,7 +27,7 @@
 
 ***
 
-### Horizontal Line(수평선, `<hr/>`)
+### Horizontal Line(`<hr/>`)
 * format : `* * *` or `***` or `- - -` or `---`
 * `*` or `-`가 3개 이상 있어야 수평선임을 인식한다.
 ```
@@ -43,7 +43,7 @@
 
 ***
 
-### Line Break(줄바꿈, `<br/>`)
+### Line Break(`<br/>`)
 * format : 띄어쓰기 3번
 * 문장 끝에 띄어쓰기 3번 또는 새 줄에 띄어쓰기 3번을 쓰면 줄바꿈된다.
 ```
@@ -62,7 +62,7 @@ ___ // 띄어쓰기
 
 ***
 
-### Styling text(글꼴 , `<b>`, `<i>`, `<del>`)
+### Styling text(`<b>`, `<i>`, `<del>`)
 | Style | Syntax | Tag | Example | Output |
 |---|---|---|---|---|
 | Bold | `**Text**` or `__Text__` | `<b>Bold</b>` | `**Bold**` | **bold** |
@@ -74,7 +74,6 @@ ___ // 띄어쓰기
 ***
 
 ### Links(`<a>`)
-* Autumatic Link, Outer Link는 URL 연결에 쓰이고 Inner Link는 주로 목차로 쓰인다.   
 | Style | Syntax | Tag | Example | Output |
 |---|---|---|---|---|
 | Autumatic Link | `url` | `<a href="[url]" target="_self">url</a>` | `http://github.com` | http://github.com |
