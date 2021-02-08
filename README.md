@@ -38,7 +38,7 @@
 
 ***
 
-### Line Break(<br/>)
+### Line Break(`<br/>`)
 * format : 띄어쓰기 3번
 * 문장 끝에 띄어쓰기 3번 또는 새 줄에 띄어쓰기 3번을 쓰면 줄바꿈된다.
 ```
@@ -54,6 +54,8 @@ ___ // 띄어쓰기
 또는
    
 이렇게
+
+***
 
 ### Styling text(`<b>`, `<i>`, `<del>`)
 | Style | Syntax | Tag | Example | Output |
