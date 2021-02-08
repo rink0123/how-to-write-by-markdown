@@ -74,11 +74,13 @@ ___ // 띄어쓰기
 ***
 
 ### Links(`<a>`)
+* Inner Link는 주로 목차로 쓰인다.
+   
 | Style | Syntax | Tag | Example | Output |
 |---|---|---|---|---|
 | Autumatic Link | `url` | `<a href="[url]" target="_self">url</a>` | `http://github.com` | http://github.com |
 | Outer Link | `url` or `[Text](url)` | `<a href="[url]" target="_self">Text</a>` | `[GitHub](http://github.com)` | [GitHub](http://github.com) |
-| Inner Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Header](#Header)` | [Styling text](#Styling-text) |
+| Inner Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Inline code](#Inline code)` | [Inline code](#Inline code) |
 
 ***
 
