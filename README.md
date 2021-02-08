@@ -76,14 +76,15 @@ ___ // 띄어쓰기
 ### Links
 * Autumatic Link, External Link는 흔히 보는 링크 연결이다.
 * Internal Link는 주로 목차로 쓰이며 Header로 링크되기에 `()` 안에 Header를 넣으면 된다.
-* Internal Link 사용 시 `()` 안에 띄어쓰기가 있을 경우 띄어쓰기 대신 `-`로 대체해야 한다. 안 그럼 일반 글자로 인식한다.
-* Interpreter로 실행되기에 Internal Link를 목차로 사용하려면 최상단에 두어야 한다.  Internal Link가 선언된 위 Header를 인식하지 못한다.
+* Internal Link 사용 시 `()` 안에 띄어쓰기는 `-`로 대체해야 한다. 안 그럼 일반 글자로 인식한다.
+* Interpreter로 실행되기에 Internal Link를 목차로 사용하려면 최상단에 두어야 한다. Internal Link가 선언된 위 Header를 인식하지 못한다.
+* Header에 특수 문자가 있을 경우, 특수 문자를 제외한 Text를 넣으면 된다. (ex. Images(`<img>`) => Imagesimg)
    
 | Style | Syntax | Tag | Example | Output |
 |---|---|---|---|---|
 | Autumatic Link | `url` | `<a href="[url]" target="_self">url</a>` | `http://github.com` | http://github.com |
 | External Link | `url` or `[Text](url)` | `<a href="[url]" target="_self">Text</a>` | `[GitHub](http://github.com)` | [GitHub](http://github.com) |
-| Internal Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Inline code](#Inline code)` | [Images(`<img>`)](#Images(\<img>\)) |
+| Internal Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Inline code](#Inline code)` | [Images(`<img>`)](#imagesimg) |
 
 ***
 
