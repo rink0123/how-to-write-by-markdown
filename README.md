@@ -3,17 +3,6 @@
 개인적으로 쓸만한 것만 추려서 정리하였습니다.
 ```
 ### Header(`<h1> ~ <h6>`)
-| Style | Syntax | Tag | Example | Output |
-|---|---|---|---|---|
-| Header | `# Text` | `<h1> ~ <h6>` | ``` |
-# h1 tag - 문서 제목
-## h2 tag - 문서 부제목
-### h3 tag
-#### h4 tag
-##### h5 tag
-###### h6 tag
-```
-
 * format : `# 문자`
 * 제목을 만들려면 #제목 텍스트 앞에 1 ~ 6 개의 기호를 추가합니다. 사용하는 수에 #따라 제목의 크기가 결정됩니다.
 ```
@@ -136,7 +125,8 @@ function fancyAlert(arg) {
   }
 }
 ```
-</code></pre> 
+</code></pre>
+
 ```
 javascript
 function fancyAlert(arg) {
