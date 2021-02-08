@@ -7,7 +7,7 @@
 ```
 개인적으로 쓸만한 것만 추려서 정리하였습니다.
 ```
-### Header(`<h1> ~ <h6>`)
+### Header(제목, `<h1> ~ <h6>`)
 * format : `# Text`
 * 제목을 만들려면 #제목 텍스트 앞에 1 ~ 6 개의 기호를 추가합니다. 사용하는 수에 #따라 제목의 크기가 결정된다.
 ```
@@ -27,7 +27,7 @@
 
 ***
 
-### Horizontal Line(`<hr/>`)
+### Horizontal Line(수평선, `<hr/>`)
 * format : `* * *` or `***` or `- - -` or `---`
 * `*` or `-`가 3개 이상 있어야 수평선임을 인식한다.
 ```
@@ -43,7 +43,7 @@
 
 ***
 
-### Line Break(`<br/>`)
+### Line Break(줄바꿈, `<br/>`)
 * format : 띄어쓰기 3번
 * 문장 끝에 띄어쓰기 3번 또는 새 줄에 띄어쓰기 3번을 쓰면 줄바꿈된다.
 ```
@@ -62,7 +62,7 @@ ___ // 띄어쓰기
 
 ***
 
-### Styling text(`<b>`, `<i>`, `<del>`)
+### Styling text(글꼴 , `<b>`, `<i>`, `<del>`)
 | Style | Syntax | Tag | Example | Output |
 |---|---|---|---|---|
 | Bold | `**Text**` or `__Text__` | `<b>Bold</b>` | `**Bold**` | **bold** |
@@ -70,6 +70,20 @@ ___ // 띄어쓰기
 | Strikethrough | `~~Text~~` | `<del>Strikethrough</del>` | `~~Strikethrough~~` | ~~Strikethrough~~ |
 | Bold and nested italic | `**Text**` and `_Text_` | `<b>This text is<i> extremely </i>important</b>` | `**This text is _extremely_ important**` | **This text is _extremely_ important** |
 | All bold and italic | `***Text***` | `<b><i>All bold and italic</i></b>` | `***All bold and italic***` | ***All bold and italic*** |
+
+***
+
+### Links(`<a>`)
+| Style | Syntax | Tag | Example | Output |
+|---|---|---|---|---|
+| Inner Link | `url` or `[Text](url)` | 
+* format : `url` or `[Text](url)`
+```
+url
+[Text](url)
+```
+http://github.com   
+[GitHub](http://github.com)
 
 ***
 
@@ -116,17 +130,6 @@ ___ // 띄어쓰기
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg)
 ![이주빈 증명사진](https://img.hankyung.com/photo/201904/01.19372617.1.jpg "이주빈 증명사진")
 <img src="https://img.hankyung.com/photo/201904/01.19372617.1.jpg" width="240px" alt="이주빈 증명사진" title="이주빈 증명사진"/>
-
-***
-
-### Links(`<a>`)
-* format : `url` or `[Text](url)`
-```
-url
-[Text](url)
-```
-http://github.com   
-[GitHub](http://github.com)
 
 ***
 
