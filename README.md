@@ -153,7 +153,7 @@ ___ // 띄어쓰기
 * 역 따옴표이니 작은 따옴표랑 헤깔리면 안 된다.
 <pre><code>
 ```
-I think you should use an `\<addr\>` element here instead.
+I think you should use an \`<addr>\` element here instead.
 ```
 </code></pre>
 I think you should use an `<addr>` element here instead.
