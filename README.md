@@ -84,7 +84,7 @@ ___ // 띄어쓰기
 |---|---|---|---|---|
 | Autumatic Link | `url` | `<a href="[url]" target="_self">url</a>` | `http://github.com` | http://github.com |
 | External Link | `url` or `[Text](url)` | `<a href="[url]" target="_self">Text</a>` | `[GitHub](http://github.com)` | [GitHub](http://github.com) |
-| Internal Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Inline code](#Inline code)` | [Images(`<img>`)](#imagesimg) |
+| Internal Link | `[Text](#Header)` | `<a id="#Header"(or name="#Header")>Header</a>` | `[Inline code](#Inline code)` | [Images(`<img>`)](#headerh1--h6) |
 
 ***
 
